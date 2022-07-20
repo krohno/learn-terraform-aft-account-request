@@ -6,8 +6,8 @@ module "sandbox" {
     AccountName               = "sandbox-aft"
     ManagedOrganizationalUnit = "PublicCloud"
     SSOUserEmail              = "fti_aft_test_1@lab.training.fortinet.com"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    SSOUserFirstName          = "PubCloud"
+    SSOUserLastName           = "One"
   }
 
   account_tags = {
