@@ -54,17 +54,17 @@ module "sandbox2" {
   account_customizations_name = "sandbox"
 }
 
-module "sandbox3" {
-  source = "./modules/aft-account-request"
+# module "sandbox3" {
+#   source = "./modules/aft-account-request"
 
-  control_tower_parameters = {
-    AccountEmail              = "fti_aft_test_3@lab.training.fortinet.com"
-    AccountName               = "sandbox-aft-3"
-    ManagedOrganizationalUnit = "PublicCloud"
-    SSOUserEmail              = "fti_aft_mgmt@lab.training.fortinet.com"
-    SSOUserFirstName          = "PubCloud"
-    SSOUserLastName           = "Three"
-  }
+#   control_tower_parameters = {
+#     AccountEmail              = "fti_aft_test_3@lab.training.fortinet.com"
+#     AccountName               = "sandbox-aft-3"
+#     ManagedOrganizationalUnit = "PublicCloud"
+#     SSOUserEmail              = "fti_aft_mgmt@lab.training.fortinet.com"
+#     SSOUserFirstName          = "PubCloud"
+#     SSOUserLastName           = "Three"
+#   }
 
 #   account_tags = {
 #     "Learn Tutorial" = "AFT"
